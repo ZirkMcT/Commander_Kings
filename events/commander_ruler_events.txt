@@ -19,8 +19,11 @@ commander_ruler_events.1 = {
 			}
 			save_scope_as = commander_ruler
 		}
-		ordered_legion_unit = {
-			limit = { legion = ROOT.capital_scope.governorship.legion }
+		ordered_unit = {
+			limit = {
+				legion = ROOT.capital_scope.governorship.legion
+				is_navy = no
+			}
 			max = 3
 			check_range_bounds = no
 			order_by = unit_size
